@@ -1,2 +1,11 @@
-# Html site - Shop
-My first site ever made
+# Pizza site
+
+
+Used tehnologies:
+  - HTML
+  - CSS
+  - JS
+    - validation
+    - slider
+    - image galery
+  
