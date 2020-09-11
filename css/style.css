@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.cleaner{
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0px 30px;
+}
+.row{
+	padding: 50px 0px;
+	margin: 0px -15px;
+}
+#logo{
+	max-width: 200px;
+	margin: 0 auto;
+}
+#navigation{
+	background-color: #a8000d;
+	float: none;
+	text-align: center;
+}
+#navigation ul li{
+	display: inline-block;
+}
+#navigation ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 20px 15px;
+	display: block;
+}
+#hamburger{
+	color: #fff;
+}
+#slajder{
+	height: 500px;
+	width: 80%;
+	margin: 0 auto;
+}
+#slajder img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.aktivna{
+	display: block!important;
+}
+.col-dostava{
+	width: 23.00%;
+	float: left;
+	margin: 0% 5%;
+	text-align: center;
+}
+.dostava-img{
+	padding: 0% 20%;
+}
+.col-dostava img{
+	width: 150px;
+}
+.col-dostava h2{
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.col-dostava p{
+	color: #000;
+	font-weight: 600;
+}
+#prodaja{
+	padding-top: 50px;
+}
+
+.galery{
+	padding: 100px 60px;
+}
+.galery img{
+	padding: 5px;
+}
+/********************************
+*/#toggle{
+	display: none;
+}
+#futer{
+	background-color: #a8000d; 
+}
+#lokacije{
+	width: 30%;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#lokacije ul li{
+	padding: 10px;
+	color: #fff;
+}
+#mapa{
+	float: right;
+	width: 40%;
+	margin-top: 30px;
+	color: #fff;
+}
+#mapa ul li{
+	padding: 5px;
+	text-align: center;
+}
+#mapa ul li a{
+	color: #fff;
+}
+#social{
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+#social i{
+	padding: 5px;
+	color: #fff;
+
+}
+#scroll{
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #a8000d;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 100;
+	color: #fff;
+	display: none;
+}
+#meni{
+	background-color: #f8faff;
+	padding: 100px 0;
+}
+#meni-levo{
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+}
+.meni-col{
+	padding: 15px;
+	margin-bottom: 15px;
+	background: #fff;
+	width: 100%;
+	border-radius: 8px;
+}
+.meni-img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.meni-img img{
+	height: 100%;
+}
+.meni-opis{
+	float: left;
+	width: 270px;
+	height: 60px;
+}
+.meni-opis h2{
+	margin-bottom: 5px;
+}
+.meni-opis p{
+	color: #a8000d;
+}
+.meni-img-hover{
+	background: #a8000d;
+	color: #fff;
+}
+.p-hover{
+	color: #fff!important;
+}
+.meni-cena{
+	width: 120px;
+	float: right;
+	font-size: 30px;
+	padding: 10px;
+}
+#meni-desno{
+	float: right;
+	width: 50%;
+	padding: 0 10px;
+}
+
+/*KONTAKT*/
+
+#kontakt{
+	padding: 100px 0;
+}
+#forma{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+#forma label{
+	font-size: 22px;
+	margin-bottom: 10px;
+	display: block;
+}
+#forma input[type=text], textarea{
+	width: 100%;
+	padding: 18px 15px;
+	margin-bottom: 35px;
+	resize: vertical;
+}
+#forma select{
+	padding: 10px;
+	font-size: 15px;
+	resize: vertical;
+	margin-bottom: 25px;
+}
+#forma #news{
+	color: #fff;
+	padding: 5px 10px;
+	background-color: #a8000d;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid #a8000d;
+}
+#forma #email{
+	margin-top: 18px;
+	display: none;
+}
+#forma #dugme{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #a8000d;
+	border: 0;
+	color: #fff;
+	margin-top: 25px;
+	padding: 20px 15px;
+	display: block;
+	border-radius: 6px;
+	cursor: pointer;
+}
+span{
+	padding: 5px;
+}
+.nevidljiv{
+	display: none;
+}
+
+/*OAUTORU*/
+
+#about{
+	padding: 100px 0;
+}
+#levo{
+	float: left;
+}
+#desno{
+	float: left;
+	margin-left: 50px;
+	width: 45%;
+}
+#desno table{
+	border-collapse: collapse;
+}
+#desno table tr td{
+	padding: 19px;
+	font-size: 20px;
+}
+.zebra{
+	background-color: #a8000d;
+	color: #fff;
+}
+
+/*ONAMA*/
+
+#slika{
+	background-image: url(../images/onama2.jpg);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+}
+#tekst{
+    width: 60%;
+    margin-left: 500px;
+    padding: 15px;
+    background-color: #a8000d66;
+    border-radius: 30px;
+}
+#tekst p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 15px 0 15px 0;
+}
+
+
+
+
+
+@media screen and (max-width: 990px){
+	.container{
+		max-width: 900px;
+	}
+	#meni-desno{
+		float: none;
+		width: 100%;
+	}
+	#meni-levo{
+		float: none;
+		width: 100%;
+	}
+	#levo{
+		float: none;
+	}
+	#desno{
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.col-prodaja{
+		width: 100%;
+		padding: 15px;
+		float: none;
+		text-align: center;
+	}
+	.container{
+		max-width: 700px;
+	}
+	#prodaja h1{
+		font-size: 15px;
+	}
+	.col-dostava{
+		width: 95%;
+		float: none;
+	}
+	#navigation ul li{
+		float: none;
+		display: block;
+	}
+	.navbar{
+		display: none;
+	}
+	#toggle{
+		width: 100%;
+		height: 50px;
+		background-color: #a8000d;
+		display: block;
+	}
+	.uvlaci{
+		display: none;
+	}
+
+@media screen and (max-width: 550px){
+	#mapa {
+		width: auto;
+	}
+	#lokacije{
+	width: auto;
+}
+
+@media screen and (max-width: 430px){
+	#mapa {
+		float: none;
+	}
+	#mapa ul li{
+		width: auto;
+	}
+	#lokacije{
+	float: none;
+
+}
