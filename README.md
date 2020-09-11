@@ -1,2 +1,2 @@
-# project-1---Html-site
+# Html site - Shop
 My first site ever made
