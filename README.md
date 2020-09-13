@@ -1,7 +1,7 @@
 # Pizza site
+In this project i first time use jquery library
 
-
-Used tehnologies:
+# Used tehnologies:
   - HTML
   - CSS
   - JS
